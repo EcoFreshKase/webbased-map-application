@@ -1,18 +1,45 @@
+/*whole body*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*header-styles*/
 header {
   background-color: #fecc00;
   text-align: center;
-  padding-left: 2%;
-  padding-right: 5%;
   position: fixed;
   width: 100%;
   z-index: 3;
   top: 0;
   left: 0;
 }
-header h1 {
+header h2 {
+  margin-top: 1%;
   margin-bottom: 1%;
 }
-header h2 {
-  margin-top: 0%;
+header h1 {
+  padding-bottom: 13px;
+}
+
+/*just for now*/
+main div {
+  padding: 50px;
+}
+
+/*footer-styles*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: relative; 
+  width: 100vw;
+  padding: 28px;
+  font-size: 0.9em;
+}
+footer a {
+  color: #fecc00;
+}
+footer a:hover {
+  color: #dfb202;
 }

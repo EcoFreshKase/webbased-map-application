@@ -1,10 +1,10 @@
 export default function Header() {
     return (
-        <header>
-          <h1>
-            Welcome to this
-          </h1>
-          <h2>web-based map application</h2>
+        <header className="header">
+          <h2 className="header">
+            Willkommen zu dieser
+          </h2>
+          <h1 className="header">webbasierten Kartenanwendung</h1>
         </header>
     )
 }
