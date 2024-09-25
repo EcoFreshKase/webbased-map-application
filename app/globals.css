@@ -32,7 +32,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  position: relative; 
+  position: relative;
   width: 100vw;
   padding: 28px;
   font-size: 0.9em;
@@ -42,4 +42,10 @@ footer a {
 }
 footer a:hover {
   color: #dfb202;
+}
+
+/*Map-styles*/
+.map-container {
+  height: 600px;
+  width: 1200px;
 }

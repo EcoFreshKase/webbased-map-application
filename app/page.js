@@ -1,61 +1,13 @@
 import styles from './page.module.css'
 
+//importing Map
+import Map from './components/map'
+
 export default function Home() {
   return (
     <main>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
-      </div>
-      <div>
-        yada yada, just need to see if the footer is there finally
+      <div className="map">
+        <Map />
       </div>
     </main>
   )
