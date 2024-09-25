@@ -10,7 +10,7 @@ header {
   text-align: center;
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 5;
   top: 0;
   left: 0;
 }
@@ -46,6 +46,7 @@ footer a:hover {
 
 /*Map-styles*/
 .map-container {
-  height: 600px;
-  width: 1200px;
+  height: 2000px;
+  width: 1000px;
+  position: relative;
 }
