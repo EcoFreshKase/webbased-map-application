@@ -1,7 +1,7 @@
-import styles from './page.module.css'
+import styles from "./page.module.css";
 
 //importing Map
-import Map from './components/map'
+import Map from "./components/map";
 
 export default function Home() {
   return (
@@ -10,5 +10,5 @@ export default function Home() {
         <Map />
       </div>
     </main>
-  )
+  );
 }

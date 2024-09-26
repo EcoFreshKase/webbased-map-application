@@ -44,9 +44,54 @@ footer a:hover {
   color: #dfb202;
 }
 
+main {
+  padding: 50px;
+}
+
 /*Map-styles*/
 .map-container {
-  height: 2000px;
-  width: 1000px;
+  height: 75vh;
+  width: 75vh;
   position: relative;
+  z-index: -2;
+  top: 60px;
+  left: 1px;
+}
+
+@media screen and (max-width: 1700px) {
+  .map-container {
+    height: 60vh;
+    width: 60vh;
+    position: relative;
+    z-index: -2;
+    top: 30px;
+  }
+  main {
+    padding: 130px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .map-container {
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+    z-index: -2;
+    top: 30px;
+  }
+  main {
+    padding: 180px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .map-container {
+    height: 40vh;
+    width: 40vh;
+    position: relative;
+    z-index: -2;
+  }
+  main {
+    padding: 250px;
+    padding-top: 150px;
+    padding-bottom: 350px;
+  }
 }
