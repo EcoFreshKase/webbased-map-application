@@ -6,9 +6,7 @@ import Map from "./components/map";
 export default function Home() {
   return (
     <main>
-      <div className="map">
-        <Map />
-      </div>
+      <Map />
     </main>
   );
 }

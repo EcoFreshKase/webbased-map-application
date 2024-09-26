@@ -44,32 +44,18 @@ footer a:hover {
   color: #dfb202;
 }
 
-main {
-  padding: 50px;
-}
-
 /*Map-styles*/
 .map-container {
-  height: 75vh;
-  width: 75vh;
+  height: 60vh;
+  width: 60vh;
   position: relative;
   z-index: -2;
-  top: 60px;
-  left: 1px;
+  top: 30px;
+}
+main {
+  padding: 130px;
 }
 
-@media screen and (max-width: 1700px) {
-  .map-container {
-    height: 60vh;
-    width: 60vh;
-    position: relative;
-    z-index: -2;
-    top: 30px;
-  }
-  main {
-    padding: 130px;
-  }
-}
 @media screen and (max-width: 1450px) {
   .map-container {
     height: 50vh;
